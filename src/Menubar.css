@@ -1,0 +1,26 @@
+.container-fluid .navbar-brand {
+    font-family: Oswald-Semi-Bold;
+    color: #13B929;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .logo{
+    color: #13B929 !important;
+  }
+  
+  .container-fluid .btn{
+    margin-left: 20px;
+    background: #23262a;
+    color: #f2f2f2;
+  }
+  
+  .container-fluid .btn:hover{
+    background: #515861;
+    color: #f2f2f2;
+  }
+  
+  .menubarStyle {
+    height: 50px;
+    background: #23262a;
+  }

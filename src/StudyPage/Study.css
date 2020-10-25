@@ -1,0 +1,32 @@
+/* ------------------------------------- */
+/* Whole HTML Body */
+/* ------------------------------------- */
+
+@font-face {
+    font-family: Oswald-Semi-Bold;
+    src: url('../font/Oswald-SemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: Oswald;
+    src: url('../font/Oswald-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Oswald-Light;
+    src: url('../font/Oswald-Light.ttf');
+  }
+  
+  body{
+    background: #E0E0E0;
+    overflow-x: hidden;
+  }
+  
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #studyWrapper{
+    margin-top: 150px;
+  }

@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ------------------------------------- */
+/* Whole HTML Body */
+/* ------------------------------------- */
+
+@font-face {
+  font-family: Oswald-Semi-Bold;
+  src: url('./font/Oswald-SemiBold.ttf');
+}
+
+body{
+  background: #E0E0E0;
+  overflow-x: hidden;
+}

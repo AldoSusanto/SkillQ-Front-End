@@ -1,0 +1,44 @@
+/* --------------------------------------------------- */
+/* Welcome Screen */
+/* --------------------------------------------------- */
+
+ .jumbotron{
+    background: url('./img/Jumbotron-bg.jpg') top center fixed;
+    background-size: cover;
+    padding-top: 16em !important;
+    padding-bottom: 16em !important;
+  }
+  
+  .welcome-text{
+    margin: 70px;
+    font-family: Oswald-Semi-Bold;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  .welcome-text h1{
+    letter-spacing: 5px;
+  
+  }
+  
+  .welcome-text p {
+    margin-top: 20px;
+    display: inline-block;
+    letter-spacing: 2.8px;
+  }
+  
+  .welcome-text button{
+    padding: 5px 15px;
+    margin-left: 20px;
+    color: #13B929;
+    background: #E0E0E0;
+    letter-spacing: 1.8px;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: #E0E0E0;
+  }
+  
+  .welcome-text button:hover{
+    background: #23262a;
+    color: #13B929;
+  } 
