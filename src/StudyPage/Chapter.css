@@ -2,7 +2,7 @@
 /* Video Container */
 /* ------------------------------------- */
 
-.video-wrapper{
+.chapter-wrapper{
     position: relative;
     left: 50px;
     padding-left: 20px;
@@ -13,7 +13,7 @@
   /*  border: 1px solid green;*/
 }
   
-.video-sub-Wrapper {
+.chapter-sub-Wrapper {
   position: relative;
   margin-top: -60px;
   margin-left: auto;
@@ -22,7 +22,7 @@
   height: 0;
 }
 
-.video-sub-Wrapper iframe {
+.chapter-sub-Wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,12 +33,12 @@
   transition-duration: 0.5s;
 }
 
-#wrapper.menuDisplayed .video-wrapper{
+#wrapper.menuDisplayed .chapter-wrapper{
   margin-left: 150px;
   width: -webkit-calc(100% - 200px);
 }
 
-#wrapper.menuDisplayed .video-sub-Wrapper iframe{
+#wrapper.menuDisplayed .chapter-sub-Wrapper iframe{
   width: 170vh;
 }
 
@@ -46,6 +46,56 @@
   margin-left: 200px;
   width: -webkit-calc(100% - 200px);
 }
+
+/* ------------------------------------- */
+/* progress-container */
+/* ------------------------------------- */
+
+.progress-container{
+  background-color: #f8f8f8;
+  border-left: 5px solid #13B929;
+  width: 85%;
+  margin: 3rem auto 0 auto;
+  padding: 1.5rem 2rem;
+  transition: 0.5s linear all;
+}
+
+.progress-container h5{
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  line-height: 1;
+  color: #13B929;
+  text-align: center;
+}
+
+.progress-container h6{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 1;
+  margin-left: 2rem;
+}
+
+.progress-container button{
+  border: none;
+  background-color: #13B929;
+  color: #f8f8f8;
+  transition: 0.2s linear all;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10%;
+  width: auto;
+}
+
+.progress-container button:hover{
+  background-color: #0f8a1f;
+}
+
+.progress-navigation{
+  margin: 40px 50px 20px auto;
+}
+
 
 /* ------------------------------------- */
 /* description-wrapper */

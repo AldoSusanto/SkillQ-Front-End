@@ -41,6 +41,9 @@ async componentDidMount(){
                 </DropdownButton>
               </div>
               <button className="btn" href="/">Pricing</button>
+              <button className="btn" href="/">Contact Us</button>
+              <button className="btn" href="/">About Us</button>
+              <button className="btn" href="/">Products</button>
             </div>
           </div>
         </div>

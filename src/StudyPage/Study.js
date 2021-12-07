@@ -29,7 +29,6 @@ class Study extends React.Component{
     }
 
     render(){
-        console.log(this.state.courseId);
         return(
             <div id="studyWrapper">
                 <Menubar />
