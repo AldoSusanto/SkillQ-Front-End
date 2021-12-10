@@ -2,43 +2,138 @@
 /* Welcome Screen */
 /* --------------------------------------------------- */
 
- .jumbotron{
-    background: url('./img/Jumbotron-bg.jpg') top center fixed;
-    background-size: cover;
-    padding-top: 16em !important;
-    padding-bottom: 16em !important;
+.jumbotron {
+  background: url("./img/Jumbotron-bg.jpg") top center fixed;
+  background-size: cover;
+  padding-top: 16em !important;
+  padding-bottom: 16em !important;
+}
+
+.welcome-text {
+  margin-top: -70px;
+  font-family: Oswald-Semi-Bold;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.welcome-text h1 {
+  letter-spacing: 5px;
+}
+
+.welcome-text p {
+  margin-top: 20px;
+  display: inline-block;
+  letter-spacing: 2.8px;
+}
+
+.welcome-text button {
+  padding: 5px 15px;
+  margin-left: 20px;
+  color: #13b929;
+  background: #e0e0e0;
+  letter-spacing: 1.8px;
+  border-radius: 8px;
+  font-size: 20px;
+  border-color: #e0e0e0;
+}
+
+.welcome-text button:hover {
+  background: #23262a;
+  color: #13b929;
+}
+
+/* --------------------------------------------------- */
+/* Opening Screen */
+/* --------------------------------------------------- */
+.opening button {
+  font-size: 1.4em;
+}
+
+.opening .opening-text h1 {
+  font-weight: 700;
+}
+
+.opening .opening-text ul li {
+  font-size: 1.4em;
+}
+
+/* --------------------------------------------------- */
+/* Description Screen */
+/* --------------------------------------------------- */
+
+.description-parent:nth-child(odd) {
+  background: #dbd7d7;
+}
+
+.description-parent .description .description-text h1 {
+  font-weight: 700;
+  color: #23262a;
+}
+
+.description-parent .description .description-text span {
+  color: #23262a;
+  font-size: 1.2em;
+}
+
+.description-parent .description .description-text .description-border {
+  border-top: 4px solid #13b929;
+  padding-right: 4em;
+}
+
+/* --------------------------------------------------- */
+/* Footer Screen */
+/* --------------------------------------------------- */
+
+.footer {
+  background: #23262a;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 26px;
+  width: 100%;
+}
+
+/* --------------------------------------------------- */
+/* Media Queries */
+/* --------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .welcome-text {
+    margin: -50px 0 0 0;
   }
-  
-  .welcome-text{
-    margin: 70px;
-    font-family: Oswald-Semi-Bold;
-    color: #e0e0e0;
-    text-align: center;
+
+  .welcome-text h1 {
+    font-size: 28px;
+    padding: 0 10px;
   }
-  
-  .welcome-text h1{
-    letter-spacing: 5px;
-  
+
+  .welcome-text p,
+  .welcome-text button {
+    padding: 0 20px;
   }
-  
-  .welcome-text p {
-    margin-top: 20px;
-    display: inline-block;
-    letter-spacing: 2.8px;
+
+  .opening .opening-text h1,
+  .description-parent .description .description-text h1 {
+    font-size: 30px;
   }
-  
-  .welcome-text button{
-    padding: 5px 15px;
-    margin-left: 20px;
-    color: #13B929;
-    background: #E0E0E0;
-    letter-spacing: 1.8px;
-    border-radius: 8px;
-    font-size: 20px;
-    border-color: #E0E0E0;
+
+  .opening .opening-text ul li,
+  .description-parent .description .description-text span {
+    font-size: 1.1em;
   }
-  
-  .welcome-text button:hover{
-    background: #23262a;
-    color: #13B929;
-  } 
+}
+
+@media screen and (max-width: 576px) {
+  .welcome-text {
+    margin: -90px 0 0 0;
+  }
+
+  .welcome-text h1 {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
+  .welcome-text p,
+  .welcome-text button {
+    padding: 0 20px;
+  }
+}

@@ -1,26 +1,78 @@
 .container-fluid .navbar-brand {
-    font-family: Oswald-Semi-Bold;
-    color: #13B929;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  
-  .logo{
-    color: #13B929 !important;
-  }
-  
-  .container-fluid .btn{
-    margin-left: 20px;
-    background: #23262a;
-    color: #f2f2f2;
-  }
-  
-  .container-fluid .btn:hover{
-    background: #515861;
-    color: #f2f2f2;
-  }
-  
-  .menubarStyle {
-    height: 50px;
-    background: #23262a;
-  }
+  font-family: Oswald-Semi-Bold;
+  color: #13b929;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  color: #13b929 !important;
+}
+
+.container-fluid .btn {
+  margin-left: 20px;
+  background: #23262a;
+  color: #f2f2f2;
+  padding: 0 5px;
+}
+
+.container-fluid .btn:hover {
+  background: #515861;
+  color: #f2f2f2;
+}
+
+.dropdown-canvas {
+  margin-bottom: 8px;
+}
+
+.menubarStyle {
+  height: 50px;
+  background: #23262a;
+}
+
+.menu-icon {
+  max-width: 24px;
+  height: auto;
+  background: #23262a;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.offcanvas {
+  position: fixed;
+  z-index: 20;
+  height: 120vh;
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #23262a;
+  color: #f2f2f2;
+}
+
+.offcanvas .canvas-center {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.offcanvas .canvas-center .canvas-item {
+  padding: 10px 0;
+  color: #f2f2f2;
+}
+
+.offcanvas .close-button {
+  display: flex;
+  justify-content: right;
+  padding: 30px 30px 0 0;
+  margin: 20px 20px 0 0;
+}
+
+.offcanvas .close-button button {
+  border: none;
+  font-size: 22px;
+  background: #23262a;
+  color: #f2f2f2;
+}
